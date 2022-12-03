@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tribute Page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style-index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open-Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/44ca9cdb3c.js"
       crossorigin="anonymous"
@@ -16,7 +31,9 @@
     <header class="hero">
       <ul class="header-left">
         <li><i class="fa-solid fa-magnifying-glass"></i></li>
-        <li>SEARCH</li>
+        <li>
+          <input class="header-search" type="text" placeholder="search" />
+        </li>
       </ul>
       <div class="header-logo">TRIBE</div>
       <ul class="header-right">
@@ -24,18 +41,21 @@
         <li>PEOPLE</li>
       </ul>
     </header>
+
     <main class="cover">
+      <div class="intro-text">
+        <h1 class="intro-title">Dr. Norman Borlaug</h1>
+        <p class="intro-sub">THE MAN WHO SAVED A BILLION LIVES</p>
+      </div>
       <img
+        class="cover-photo"
         src="images/norman_borlaug.jpg"
         alt="a photo of Norman Borlaug standing in a wheat field"
       />
-      <div class="intro text">
-        <h1 class="intro title">Dr. Norman Borlaug</h1>
-        <p class="intro sub">THE MAN WHO SAVED A BILLION LIVES</p>
-      </div>
     </main>
+
     <article class="contribution">
-      <h2 class="contribution sub">
+      <h2 class="contribution-sub">
         Founder, The World Food Prize 1970 Nobel Peace Prize Laureate
       </h2>
       <p>
@@ -60,7 +80,7 @@
         potential.
       </p>
     </article>
-    <figure>
+    <figure class="mid-art-img">
       <img
         src="images/norman-in-the-field.jpeg"
         alt="Norman Borlaug in a wheat field with his companions"
